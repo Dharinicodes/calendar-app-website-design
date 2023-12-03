@@ -8,19 +8,11 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+/*  @media screen and (max-width: 768px) {
   body {
     font-size: 10px;
     margin-left: -30px;
     margin-top: 30px;
-  }
-
-  .flex-container {
-    margin-top: 50px;
-  }
-
-  .flex-container .about-container > h1 {
-    font-size: 25px;
   }
 
   .nav-container .list-non-bullet .list-item-inline {
@@ -34,51 +26,12 @@ body {
     font-size: 8px;
   }
 
-  .about-container .learn-more-btn {
-    padding: 3.5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    font-size: 8px;
-  }
-
   .list-item-inline .nav-brand {
     padding-right: 30px;
     font-weight: bold;
     font-size: 9px;
   }
-
-  .flex-container .signup-container {
-    margin-top: 5%;
-    margin-left: 5%;
-    padding: 10px;
-    padding-bottom: 20px;
-    width: 170px;
-    height: 350px;
-  }
-
-  .flex-container .signup-container .terms-service {
-    padding-left: 10px;
-  }
-
-  .or-line .line:before {
-    width: 60px;
-    height: 1.5px;
-    left: 10px;
-    top: 50%;
-  }
-
-  .or-line .line:after {
-    width: 60px;
-    height: 1.5px;
-    right: 10px;
-    top: 50%;
-  }
-
-  .signup-container .login-btn {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
+} */
 
 .login-btn {
   border-radius: 0.7rem;
@@ -175,7 +128,7 @@ header {
   color: #2e2e2e;
   font-weight: bold;
   width: 18%;
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding: 0.5rem;
   border-radius: 1rem;
   margin-left: auto;
@@ -183,8 +136,8 @@ header {
 }
 
 header > h1 {
-  font-size: 80px;
-  max-width: 50%;
+  font-size: 85px;
+  max-width: 69%;
   margin: 0.5rem;
   margin: auto;
   font-weight: bolder;
@@ -219,4 +172,62 @@ header > p {
 .buy-btn:hover {
   cursor: pointer;
   transform: scale(0.9);
+}
+
+.homepage-screenshot {
+  width: 1200px;
+  height: 700px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 1px solid #d1d5db;
+  border-radius: 1rem;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #f1f5f9;
+  margin: auto;
+  margin: 0px;
+  min-height: auto;
+}
+
+.socials-list-non-bullet {
+  list-style: none;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-right: 2rem;
+  margin-top: 3.5rem;
+}
+
+.socials-list-item-inline {
+  margin-right: 0.8rem;
+  margin-top: 2rem;
+  color: grey;
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.socials-list-item-inline:hover {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.socials-icon {
+  width: 35px;
+  height: 35px;
+  display: inline;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.feature-pics {
+  width: 700px;
+  height: 620px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
 }
